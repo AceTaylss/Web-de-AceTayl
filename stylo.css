@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & family= Solitreo & display=swap');
+
+
+
+*{
+    margin: o;
+    padding:0;
+    box-sizing: boreder-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    min-height: 100vh;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form{
+  background-color: aliceblue;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form_title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form_input{
+  font-family: inherit;
+  font-size: 1rem;  
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+
+.form_input--message{
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
+}
+
+.form_cta{
+    font-family: inherit;
+      background-color: #30cfd0;
+      color: aliceblue;
+      border: none;
+      font-weight: 300;
+      font-size: 1rem;
+      padding: .7em 0;
+      border-radius: .2em;
+      cursor: pointer;
+      font-weight: 400;
+  }
+
+@media (max-width: 450px){
+  .form{
+    padding: 3.5em 1em;
+  }
+}
+
+footer {
+  background-color: #0a3053;
+  color: #0e2fc5;
+  padding: 20px;
+  text-align: center;
+}
+.contact-icons img {
+  width: 40px;
+  margin: 0 10px;
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
