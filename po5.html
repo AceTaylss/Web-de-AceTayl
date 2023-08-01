@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galería Interactiva</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="image-wrapper" onmouseover="showInfo(this)">
+            <img src="zorry.png" alt="Imagen 1">
+            <div class="info"></div>
+            <button class="btn-info" onclick="showMoreInfo(this)">so</button>
+        </div>
+        <div class="image-wrapper" onmouseover="showInfo(this)">
+            <img src="fac.png" alt="Imagen 2">
+            <div class="info"></div>
+            <button class="btn-info" onclick="showMoreInfo(this)">Más info</button>
+        </div>
+        <!-- Agrega más imágenes aquí -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
